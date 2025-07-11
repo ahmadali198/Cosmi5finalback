@@ -4,11 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-<<<<<<< HEAD
     "dev": "nodemon server.js", 
-=======
-    "dev": "nodemon server.js",
->>>>>>> 410ae97c18ee3f47e567523efeee81fefc603421
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
