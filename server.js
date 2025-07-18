@@ -11,7 +11,7 @@ const app = express();
 // For development and testing, allow all origins.
 // In production, you should restrict this to your actual frontend URL(s).
 app.use(cors({
-  origin: ['http://localhost:3000', 'https://cosmifrontnew.netlify.app'], // Explicitly list allowed origins
+  origin: ['http://localhost:3000', 'https://cosmi5finalfront.vercel.app/'], // Explicitly list allowed origins
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'], // Explicitly allow all common methods including OPTIONS
   allowedHeaders: ['Content-Type', 'Authorization'], // Crucial for sending JSON and JWT tokens
   credentials: true
